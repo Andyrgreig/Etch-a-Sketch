@@ -1,0 +1,58 @@
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+#colour,
+#clear {
+  display: inline-block;
+  background-color: #d17a7a;
+  border-radius: 20px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 150px;
+  height: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#size {
+  font-size: 25px;
+}
+
+label {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1000px;
+  height: 100px;
+  padding-bottom: 25px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+  height: 480px;
+}
