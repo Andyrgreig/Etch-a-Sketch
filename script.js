@@ -10,10 +10,6 @@ function newGrid(num, pixels) {
   grid.style.width = `${dimension}px`;
   grid.style.height = `${dimension}px`;
 
-  console.log(`number: ${num}`);
-  console.log(`pixels: ${pixels}`);
-  console.log(`dimension: ${dimension}`);
-
   for (let i = 0; i < num * num; i++) {
     const gridElement = document.createElement("div");
     gridElement.id = "div" + i;
